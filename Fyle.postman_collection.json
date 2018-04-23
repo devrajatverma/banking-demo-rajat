@@ -1,0 +1,51 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Fyle",
+		"_postman_id": "26e4a619-1aaf-7db5-3f0b-21f11c9cdb3a",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8080/bank/ABHYUDAYA COOPERATIVE BANK LIMITED/MUMBAI",
+			"request": {
+				"url": "localhost:8080/bank/ABHYUDAYA COOPERATIVE BANK LIMITED/MUMBAI",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\" : \"E01\",\r\n    \"name\" : \"name 1\",\r\n    \"age\" : 20,\r\n    \"email\" : \"name1@gmail.com\"\r\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/bank/ABHY0065003",
+			"request": {
+				"url": "localhost:8080/bank/ABHY0065003",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\" : \"E01\",\r\n    \"name\" : \"name 1\",\r\n    \"age\" : 20,\r\n    \"email\" : \"name1@gmail.com\"\r\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
